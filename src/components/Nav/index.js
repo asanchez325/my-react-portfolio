@@ -29,6 +29,11 @@ function Nav() {
               Contact
             </span>
           </li>
+          <li className={"mx-2"}>
+            <span onClick={() => handleClick()}>
+              Contact
+            </span>
+          </li>
           {
             categories.map((category) => (
               <li className="mx-1" key={category.name} >
