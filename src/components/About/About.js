@@ -1,10 +1,10 @@
 import React from 'react';
-import adventureImage from '../../assets/images/adventure.jpg';
-import hikingImage from '../../assets/images/hike.jpg';
-import coffeeImage from '../../assets/images/coffee.jpg';
-import growthImage from '../../assets/images/growth.jpg';
-import educationImage from '../../assets/images/yoga.jpg';
-import computerImage from '../../assets/images/computer.jpg';
+import adventureImage from '../../images/adventure.jpg';
+import hikingImage from '../../images/hike.jpg';
+import coffeeImage from '../../images/coffee.jpg';
+import growthImage from '../../images/growth.jpg';
+import educationImage from '../../images/yoga.jpg';
+import computerImage from '../../images/computer.jpg';
 import { Typography, Grid, Container } from '@material-ui/core';
 import useStyles from './style';
 import resumeData from "../../resumeData";

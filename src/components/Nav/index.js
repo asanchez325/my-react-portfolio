@@ -1,51 +1,29 @@
-import React from "react";
+import React from 'react';
 
-function Nav() {
-  const  categories = [
-    { name: 'Portfolio', description: 'Display of my portfolio' },
-  ];
+function Header(props) {
+  const { currentTab, setCurrentTab } = props;
+    return (
+      <React.Fragment>
 
-  const handleClick = () => {
-    console.log("click handled")
+         <nav id="nav-wrap">
+            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+            <ul id="nav" className="nav">
+               <li> <a className={currentTab === "about" }>
+                  <span onClick ={() => setCurrentTab("about")}>About</span></a>
+                </li>
+                <li> <a className={currentTab === "portfolio" ? "mx-2 navActive" : "mx-2"}>
+                  <span onClick ={() => setCurrentTab("portfolio")}>Portfolio</span></a>
+                </li>
+                <li> <a className={currentTab === "resume" ? "mx-2 navActive" : "mx-2"}>
+                  <span onClick ={() => setCurrentTab("resume")}>Resume</span></a>
+                </li>
+                <li> <a className={currentTab === "contact" ? "mx-2 navActive" : "mx-2"}>
+                  <span onClick ={() => setCurrentTab("contact")}>Contact</span></a>
+                </li>
+            </ul>
+         </nav>
+      </React.Fragment>
+    );
   }
-
-  return (
-    <header data-testid="header" className="flex-row px-1">
-      <h2>
-        <a href="/">
-          <span role="img" aria-label="camera"> 📸</span> alannah
-        </a>
-      </h2>
-      <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a href="#about" onClick={() => handleClick()}>
-              About me
-            </a>
-          </li>
-          <li className={"mx-2"}>
-            <span onClick={() => handleClick()}>
-              Contact
-            </span>
-          </li>
-          <li className={"mx-2"}>
-            <span onClick={() => handleClick()}>
-              Contact
-            </span>
-          </li>
-          {
-            categories.map((category) => (
-              <li className="mx-1" key={category.name} >
-                <span onClick={() => { handleClick(); }}>
-        
-                </span>
-              </li>
-            ))
-          }
-        </ul>
-      </nav>
-    </header>
-  );
-}
-
-export default Nav;
+  export default Header;

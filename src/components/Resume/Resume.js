@@ -1,4 +1,4 @@
-import { Button, Container} from '@material-ui/core';
+import { Button, Container, Typography} from '@material-ui/core';
 import React from 'react';
 import resumeData from "../../resumeData";
 import pdf from '../../images/resume/resume.pdf';
@@ -9,6 +9,9 @@ function Resume() {
   const classes = useStyles();
     return (
       <section id="resume">
+      <Typography variant="h4" marked="center" align="center" component="h2">
+        Checkout Some of My Work!
+      </Typography>
           <Container className={classes.container}>
             <Button variant="contained" size="large">
                  <a href={pdf}>Download My Resume Here</a>
