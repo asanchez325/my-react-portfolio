@@ -1,3 +1,5 @@
+import computerImage from './assets/images/computer.jpg';
+
 let resumeData = {
     "name": "Alannah Sanchez",
     "role": "IT Project Manager and Fullstack Web-Developer",
