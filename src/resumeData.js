@@ -1,4 +1,4 @@
-import computerImage from './assets/images/computer.jpg';
+import computerImage from './images/computer.jpg';
 
 let resumeData = {
     "name": "Alannah Sanchez",
@@ -42,29 +42,31 @@ let resumeData = {
       "work":[
         {
           "CompanyName":"Los Alamos National Laboratory",
-          "specialization":"IT Project Management",
-          "MonthOfLeaving":"In Progress",
-          "YearOfLeaving":"2018",
-          "Achievements":"LANL Distinguished Student Award"
+          "specialization1":"IT Project Management: Dec 2019 - Present",
+          "specialization2":"Occupational Medicine Case Manager: Jun. 2018 - Dec. 2019",
+          "specialization3":"Environmental Protection and Compliance: Jun. 2014 - Jun. 2014",
+          "Achievements1":"LANL Distinguished Student Award: 2020",
+          "Achievements2":"Committee Member of SPAC: 2020 - Present",
+          "Achievements3":"SPOT Award x2: 2020 - Present",
         },
-        {
-          "CompanyName":"Los Alamos National Laboratory",
-          "specialization":"Occupational Medicine",
-          "MonthOfLeaving":"December",
-          "YearOfLeaving":"2020",
-        }
       ],
-      "skillsDescription":"Your skills here",
+      "skillsDescription":"Highlights of my Professional, Technical and Soft Skills",
       "skills":[
-        {
-          "skillname":"HTML5"
+        {"Category": "Professional",
+          "skillname1":"HTML5",
+          "skillname2":"CSS",
+          "skillname3":"Reactjs",
         },
-        {
-          "skillname":"CSS"
-        },
-        {
-          "skillname":"Reactjs"
-        }
+        {"Category": "Technical",
+        "skillname1":"HTML5",
+        "skillname2":"CSS",
+        "skillname3":"Reactjs",
+      },
+      {"Category": "Soft",
+      "skillname1":"HTML5",
+      "skillname2":"CSS",
+      "skillname3":"Reactjs",
+    },
       ],
       "portfolio":[
         {
