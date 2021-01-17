@@ -10,7 +10,7 @@ function Resume() {
     return (
       <section id="resume">
       <Typography variant="h4" marked="center" align="center" component="h2">
-        Checkout Some of My Work!
+        See my qualifications!
       </Typography>
           <Container className={classes.container}>
             <Button variant="contained" size="large">

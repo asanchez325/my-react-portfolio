@@ -1,3 +1,24 @@
+# My Portfolio
+
+---
+
+## Description 
+
+*Description of the project; including the what, the why and the how:* 
+
+My portfolio demonstrates information about me, sample projects, my resume, and contact info.
+
+---
+
+## Preview
+[Visit the deployed app here!](https://asanchez325.github.io/my-react-portfolio/)
+---
+
+## Questions?
+
+For any questions, please feel free to reach out to me:
+
+GitHub: [@asanchez325](https://api.github.com/users/asanchez325)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
