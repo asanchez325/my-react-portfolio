@@ -10,11 +10,47 @@ function Portfolio() {
   const images = [
     {
       url:'https://images.unsplash.com/photo-1531299204812-e6d44d9a185c?auto=format&fit=crop&w=400&q=80',
-      title:'Policies',
-      content: 'Gastronomy bakflahsfkasfkhasflk',
+      title:'Run Buddy',
+      content: 'A website that offers fitness training services. Built with HTML and CSS',
       width: '40%',
-      url2:'https://courses.bootcampspot.com/courses/232/pages/20-dot-1-7-reflection?module_item_id=64420',
-    },]
+      url2:'https://asanchez325.github.io/run-buddy2/',
+    },
+    {
+        url:'https://github.com/asanchez325/Tech-Blog/raw/main/assets/Capture1.gif',
+        title:'Tech Blog',
+        content: 'A CMS-style blog, where developers can publish their blog posts and comment on other developers’ posts as well.',
+        width: '20%',
+        url2:'https://pacific-ocean-98839.herokuapp.com/',
+      },
+      {
+        url:'https://github.com/asanchez325/note_taker/raw/master/assets/Capture2.PNG',
+        title:'Note Taker',
+        content: 'Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file. ',
+        width: '40%',
+        url2:'https://notetaker33.herokuapp.com/',
+      },
+      {
+        url:'https://github.com/asanchez325/EmployeeTracker/raw/main/assets/Capture1.gif',
+        title:'Employee Tracker',
+        content: "The Employee Tracker is a command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
+        width: '38%',
+        url2:'https://github.com/asanchez325/EmployeeTracker',
+      },
+      {
+        url:'https://github.com/asanchez325/EmployeeTracker/raw/main/assets/Capture1.gif',
+        title:'Employee Tracker',
+        content: "The Employee Tracker is a command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
+        width: '38%',
+        url2:'https://github.com/asanchez325/EmployeeTracker',
+      },
+      {
+        url:'https://github.com/asanchez325/EmployeeTracker/raw/main/assets/Capture1.gif',
+        title:'Employee Tracker',
+        content: "The Employee Tracker is a command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
+        width: '24%',
+        url2:'https://github.com/asanchez325/EmployeeTracker',
+      },
+    ]
   return (
     <Container className={classes.root} component="section">
       <Typography variant="h4" marked="center" align="center" component="h2">
@@ -49,9 +85,9 @@ function Portfolio() {
             </div>
             <div className={classes.imageContent}>
               <Typography
-                component="h3"
+                component="h4"
                 variant="h6"
-                color="inherit"
+                color="palette.info.dark"
                 className={classes.imageContent}
               >
                 {image.content}

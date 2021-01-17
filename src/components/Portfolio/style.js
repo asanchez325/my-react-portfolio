@@ -78,13 +78,13 @@ export default makeStyles((theme) => ({
   },
 
   imageContent: {
-    width: 'center 90%',
+    width: '80%',
     position: 'absolute',
     flexWrap: 'wrap',
     padding: `${theme.spacing(2)} ${theme.spacing(2)} 8px`,
-    bottom: 1,
+    bottom: 2,
     display: 'flex',
-    left: 'calc(40% - 5px)',
+    left: 'calc(10%)',
   },
   imageMarked: {
     height: 3,
