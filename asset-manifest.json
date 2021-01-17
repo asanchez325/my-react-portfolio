@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.66fbbcce.chunk.css",
+    "main.js": "/my-react-portfolio/static/js/main.4f846ef4.chunk.js",
+    "main.js.map": "/my-react-portfolio/static/js/main.4f846ef4.chunk.js.map",
+    "runtime-main.js": "/my-react-portfolio/static/js/runtime-main.cf19692a.js",
+    "runtime-main.js.map": "/my-react-portfolio/static/js/runtime-main.cf19692a.js.map",
+    "static/js/2.729ce0d5.chunk.js": "/my-react-portfolio/static/js/2.729ce0d5.chunk.js",
+    "static/js/2.729ce0d5.chunk.js.map": "/my-react-portfolio/static/js/2.729ce0d5.chunk.js.map",
+    "index.html": "/my-react-portfolio/index.html",
+    "static/css/main.66fbbcce.chunk.css.map": "/my-react-portfolio/static/css/main.66fbbcce.chunk.css.map",
+    "static/js/2.729ce0d5.chunk.js.LICENSE.txt": "/my-react-portfolio/static/js/2.729ce0d5.chunk.js.LICENSE.txt",
+    "static/media/adventure.c4311905.jpg": "/my-react-portfolio/static/media/adventure.c4311905.jpg",
+    "static/media/computer.4fec4de3.jpg": "/my-react-portfolio/static/media/computer.4fec4de3.jpg",
+    "static/media/hike.06716d7f.jpg": "/my-react-portfolio/static/media/hike.06716d7f.jpg",
+    "static/media/resume.5d955b19.pdf": "/my-react-portfolio/static/media/resume.5d955b19.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf19692a.js",
+    "static/js/2.729ce0d5.chunk.js",
+    "static/css/main.66fbbcce.chunk.css",
+    "static/js/main.4f846ef4.chunk.js"
+  ]
+}
