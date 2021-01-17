@@ -18,9 +18,9 @@ function Contact() {
               </Typography>
 
             <div className="row education">
-                <h3><a href="https://github.com/aksmith5239" target="_blank" rel="noreferrer">GitHub</a></h3>
-                <h3><a href="https://www.linkedin.com/in/allison-smith-18650810/" target="_blank" rel="noreferrer">Linked In</a></h3>
-                <h3><a href="mailto:aklobby@gmail.com">Email</a></h3>
+                <h3><a href="https://github.com/asanchez325" target="_blank" rel="noreferrer">GitHub</a></h3>
+                <h3><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Linked In</a></h3>
+                <h3><a href="mailto:amsanchez@knox.edu">Email</a></h3>
                 <h2>Thanks for Visiting!</h2>
             </div>
             </form>
