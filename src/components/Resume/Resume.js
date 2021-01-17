@@ -94,6 +94,7 @@ function Resume() {
                          {item.skillname1}
                          {item.skillname2}
                          {item.skillname3}
+                         {item.skillname4}
                          </li>
                       </div>
                    </div>
