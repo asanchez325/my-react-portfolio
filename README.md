@@ -11,7 +11,7 @@ My portfolio demonstrates information about me, sample projects, my resume, and 
 ---
 
 ## Preview
-[Visit the deployed app here!](https://asanchez325.github.io/my-react-portfolio/)
+[Visit My Portfolio Here!](https://asanchez325.github.io/my-react-portfolio/)
 ---
 
 ## Questions?
